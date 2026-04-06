@@ -1,0 +1,210 @@
+
+/* h3{
+    color: orange;
+} */
+
+/* selectors */
+/* simple selectors */
+/* universal selector ==>target entire page */
+/* *{
+    background-color: brown;
+    color: greenyellow;
+} */
+/* using id */
+/* #head2{
+    background-color: green;
+    color: blueviolet;
+} */
+
+/* using class  red color will be only for how are you because for good afternoon id is applied so it has more value*/
+/* .head{
+    background-color: red;
+    color: aliceblue;
+} */
+
+/* using tagname */
+/* h2{
+    background-color: yellow;
+    color: black;
+} */
+
+/* grouping selector */
+/* h2,p,h4{
+    background-color: palegreen;
+    color: black;
+} */
+
+/* #head2,.head3   work on thiss
+{
+  background-color: palevioletred;
+  column-rule: green;
+} */
+/* universal selector==>entire thing ==>top of css==>using "*" */
+
+
+/* combinator selector */
+/* descendant selector */
+/* it will target direct as well as indirect children */
+/* it will use space */
+/* div p{
+    background-color: forestgreen;
+    color: fuchsia;
+} */
+
+/* child selector */
+/* it will target to only direct childeren */
+/* it will use > */
+/* div>h5{
+    background-color: brown;
+    color: bisque;
+} */
+
+/* adjacent sibling selector */
+/* it will target only first occurance that is who is adjacent sibling of that tag */
+/* it will apply to h2 after p tag so that tag it will apply 
+i.e next to h2 if p is there ==> sibling means next */
+/* it will use + */
+/* 
+
+/* general sibling selector */
+/* it will target all occurance who are same level(sibling) */
+/* all p tags after h2 */
+/* uses ~ */
+/* h2 ~p{
+background-color: red;
+color: yellow;
+} */
+
+/* pseudo class selector */
+/* a:link{
+    color: brown;
+}
+
+a:visited{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+} */
+/* 
+
+/* for form ==> for text */
+/* input:focus{
+    background-color: gray;
+    color: chartreuse;
+}  */
+/* for check box */
+/* input:checked{
+    accent-color: green;
+} */
+
+/* for file */
+/* input:disabled{
+    background-color: rgb(153, 16, 39);
+} */
+
+/* psedo element selector */
+/* only w color should change */
+/* h1::first-letter{
+    font-size: 40px;
+    color: orangered;
+} */
+
+/* only 1 line color should change */
+/* p::first-line{
+    color: blueviolet;
+} */
+/* emojii */
+/* h1::before{
+    content: '😘';
+}
+h1::after{
+    content: "❤️";
+} */
+/* if we will select paragraph to copy it will come blue color
+to change that color */
+/* p::selection{
+    background-color: aquamarine;
+    color: blueviolet;
+} */
+
+/* list
+to get some other type except disc circle square */
+/* li::marker{
+    content: '💕';
+} */
+
+/* placeholder */
+/* input::placeholder{
+    color: blueviolet;
+} */
+
+/* UNITS IN CSS */
+/* div{ */
+    /* height: 400px;
+    width:600px; */
+    /* vh means viewport height vw viewport width */
+    /* height: 100vh;
+    width: 100vw;
+    background-color: brown;
+    font-size: 40px;
+} */
+/* main{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    font-size: 2em;
+    font-size: 2rem;
+    use any one em or rem
+} */
+
+/* margin = 0 */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* div{
+    height: 400px;
+    width: 600px;
+    background-color: gray;
+} */
+
+/* space b/w content and border is padding */
+/* space outside border is margin */
+/* div{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+button{
+    font-size: 400px;
+    background-color: lightblue;
+    color: palevioletred;
+    border: 15px solid red;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+article{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    margin: auto;
+} */
+
+/* color */
+/* h1{
+    background-color: hsla(249,35%,39%,0.98);
+} */
+
+/* make image circle */
+main{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border: 2px solid black;
+}

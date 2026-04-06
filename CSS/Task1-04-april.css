@@ -1,0 +1,13 @@
+    .first {
+        color: orange;
+    }
+#first{
+        color: aqua;
+    }
+    .second{
+        color: greenyellow;
+    }
+
+    #second{
+        color: red;
+    }
