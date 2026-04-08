@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    padding: 15px;
+}
+/* palm symol==> cursor: pointer; cursor: help==> arrow and question mark */
+.logo{
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+/* that == should not visible when open in tab or pc */
+.ham{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* hide the checkbox */
+#toggle{
+    display: none;
+}
+
+/* if it is mobile screen then only LOGO should be seen */
+@media(max-width:767px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+    #toggle:checked + .ham + .menu{
+        display: flex;
+    }
+    .ham{
+        display: block;
+    }
+}

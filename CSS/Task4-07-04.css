@@ -1,0 +1,55 @@
+body{
+    background-color: lightcyan;
+}
+
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.fn label{
+    font-size: 10px;
+}
+
+.fn input{
+    width: 150px;
+    height: 20px;
+}
+.fn{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ln label{
+    font-size: 10px;
+}
+
+.ln input{
+    width: 150px;
+    height: 20px;
+}
+.ln{
+    display: inline-block;
+}
+.mail{
+    margin-top: 15px;
+}
+.mail label{
+    font-size: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mail input{
+    width: 250px;
+    height: 20px;
+}

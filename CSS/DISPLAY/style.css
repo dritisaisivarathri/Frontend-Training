@@ -1,0 +1,38 @@
+/* display block==> 
+to converet inline->block level
+            block -> inline level */
+/* if we give height and width without display they will not work */
+/* a is inline we are converting to block level */
+
+nav a{
+    height: 70px;
+    width: 200px;
+    background-color: blueviolet;
+    color: aqua;
+    display: block;
+    text-align: center;
+}
+
+/* h1 is block level we are converting to inline  */
+h1{
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    display: inline;
+}
+
+/* converting block level to inline-block level */
+footer > a{
+    display: inline-block;
+    padding: 40px;
+    background-color: gray;
+}
+
+/* display none==> not to show that content */
+/* display: none==> not take space */
+/* visibility:hidden==> takes space */
+h1{
+    /* display: none; */
+    visibility: hidden;
+
+}

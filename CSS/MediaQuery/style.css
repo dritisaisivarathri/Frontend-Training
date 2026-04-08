@@ -1,0 +1,30 @@
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+
+}
+
+/* to provide responsiveness for website we use media tag */
+/* responsiveness means it should work in mobile, tablet and pc */
+/* 767 is mobile size */
+@media (max-width:767px){
+    .container{
+        background-color: red;
+    }
+
+}
+/* >767 and < 1023 considered as tablet */
+@media(min-width:768px) and (max-width:1023px){
+    .container{
+        background-color: yellow;
+    }
+    
+}
+
+/* > 1023 ==> pc */
+@media(min-width:1024px){
+    .container{
+        background-color: blue;
+    }
+}

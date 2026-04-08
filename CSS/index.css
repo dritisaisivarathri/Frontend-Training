@@ -34,10 +34,10 @@
     color: black;
 } */
 
-/* #head2,.head3   work on thiss
+/* #head2,.head 
 {
   background-color: palevioletred;
-  column-rule: green;
+  column-rule: 10px solid red;
 } */
 /* universal selector==>entire thing ==>top of css==>using "*" */
 
@@ -64,7 +64,9 @@
 /* it will apply to h2 after p tag so that tag it will apply 
 i.e next to h2 if p is there ==> sibling means next */
 /* it will use + */
-/* 
+/* h2+p{
+    color: blue;
+} */
 
 /* general sibling selector */
 /* it will target all occurance who are same level(sibling) */
@@ -78,16 +80,20 @@ color: yellow;
 /* pseudo class selector */
 /* a:link{
     color: brown;
-}
-
-a:visited{
-    color: green;
-}
-
-a:active{
-    color: yellow;
 } */
-/* 
+
+/* a:visited{
+    color: green;
+} */
+
+/* a:active{
+    color: yellow;
+}  */
+
+/* a:hover{
+    color: palevioletred;
+} */
+
 
 /* for form ==> for text */
 /* input:focus{
@@ -110,6 +116,7 @@ a:active{
     font-size: 40px;
     color: orangered;
 } */
+
 
 /* only 1 line color should change */
 /* p::first-line{
@@ -145,11 +152,11 @@ to get some other type except disc circle square */
     /* height: 400px;
     width:600px; */
     /* vh means viewport height vw viewport width */
-    /* height: 100vh;
-    width: 100vw;
+     /* height: 50vh;
+    width: 50vw;
     background-color: brown;
     font-size: 40px;
-} */
+}  */
 /* main{
     height: 200px;
     width: 200px;
@@ -168,18 +175,23 @@ to get some other type except disc circle square */
 /* div{
     height: 400px;
     width: 600px;
+    padding: 20px;
+    margin: 50px;
     background-color: gray;
 } */
 
 /* space b/w content and border is padding */
 /* space outside border is margin */
-/* div{
-    height: 100vh;
-    width: 100vw;
+#a{
+    height: 50vh;;
+}
+div{
+    /* height: 50vh; */
+    width: 50vw;
     background-color: gray;
 }
 button{
-    font-size: 400px;
+    font-size: 100px;
     background-color: lightblue;
     color: palevioletred;
     border: 15px solid red;
@@ -188,7 +200,7 @@ button{
 
 }
 
-article{
+/* article{
     height: 100px;
     width: 100px;
     background-color: yellowgreen;
@@ -201,10 +213,10 @@ article{
 } */
 
 /* make image circle */
-main{
+/* main{
     height: 100px;
     width: 100px;
     background-color: antiquewhite;
     border-radius: 50%;
     border: 2px solid black;
-}
+} */

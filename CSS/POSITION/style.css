@@ -1,0 +1,35 @@
+/* positions inside css */
+/* static is by default when element is created */
+/* top and left are helping properties */
+/* relative==>work with current position use for parent, use absolute for child
+so that child can move inside parent*/
+/* absolute==>according to parent */
+/* .container{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    margin: auto;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+} */
+
+/* 07-04-26 */
+/* fixed */
+nav{
+    height: 75px;
+    width: 100vw;
+    background-color: gray;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+}

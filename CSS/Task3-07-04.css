@@ -1,0 +1,14 @@
+nav img{
+    background-color: blueviolet;
+    
+
+}
+
+nav{
+    background-color: aqua;
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

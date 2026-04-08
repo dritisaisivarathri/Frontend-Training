@@ -1,0 +1,58 @@
+/* universal selectror */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* text-decoration==>dont want underline below home about and contact us*/
+/* nav a will apply to a which is under nav tag==>this is descendant selector */
+/* text transform==> to change case of text  we are having uppercase, lowercase and capitalized*/
+/* font-style==>change the style of font==>italic normal oblique */
+nav a{
+    text-decoration: none;
+    text-transform:capitalize;
+    font-style: oblique;
+
+}
+
+/* give background color to punjab */
+/* text-align==>text in center */
+/* letter-spacing==>space b/w letter */
+/* text-shadow==>shadow for text  x-axis(right-side)if we give negative value then it will go left side
+, y-axis(downwards), blurness*/
+h1{
+    background-color: antiquewhite;
+    color: aqua;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+/* from google fonts ==>select the font you need ==>get embedded code
+select link code and paste in html==>select css code and paste in the targeted element
+change font weight */
+  /* font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+} */
+
+/* line-height==>space b/w paragraph lines */
+/* word-spacing==>space b/w words */
+/* text-indent==>add indent spaces at starting of paragraph */
+/* font-family==>to change the style of font */
+/* font-weight==>boldness 100-900, bold, bolder, normal, lighter */
+p{
+    line-height: 25px;
+    word-spacing: 10px;
+    text-indent: 150px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
