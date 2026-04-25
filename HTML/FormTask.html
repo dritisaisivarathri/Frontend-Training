@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name*</label>
+        <input type="text" name="Name" id="name" required> 
+        <br><br>   
+
+        <!-- Address -->
+         <label for="address">Address</label>
+         <textarea name="" id="address"></textarea>
+         <br><br>
+
+         <!-- ZipCode -->
+          <label for="zipcode" >ZipCode*</label>
+          <input type="tel" name="zipcode" id="zipcode" minlength="5" maxlength="5" placeholder="enter a 5-digit code" required>
+          <br><br>
+
+          <!-- Country -->
+           <label for="country">Country*</label>
+           <select name="country" id="country" required>
+            <option value="">Please select...</option>
+            <option value="">America</option>
+            <option value="">India</option>
+            <option value="">Australia</option>
+            <option value="">England</option>
+           </select>
+           <br><br>
+
+           <!-- Gender -->
+            <label for="">Gender*</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" required>
+            <br><br>
+
+            <!-- Preferences -->
+             <label for="">Preferences*</label>
+             <label for="color">Red</label>
+             <input type="checkbox" name="color" id="color" required >
+             <label for="color">Green</label>
+             <input type="checkbox" name="color" id="color" checked required>
+             <label for="color">Blue</label>
+             <input type="checkbox" name="color" id="color" required>
+             <br><br>
+
+             <!-- Phone number -->
+              <label for="phone">Phone*</label>
+              <input type="tel" name="phone" id="phone" minlength="10" maxlength="10" required>
+              <br><br>
+
+              <!-- Email -->
+               <label for="">Email*</label>
+               <input type="email" name="email" id="email" required>
+               <br><br>
+
+               <!-- Password -->
+                <label for="password">Password*</label>
+                <input type="password" name="password" id="password" placeholder="6-8 characters" minlength="6" maxlength="8" required>
+                <br><br>
+
+                <!-- verify password -->
+                 <label for="">Verify Password*</label>
+                 <input type="password" name="password" id="password"  minlength="6" maxlength="8" required>
+                <br><br>
+
+                <!-- birthday -->
+                 <label for="">Birthday*</label>
+                 <input type="date" name="birthday" id="" min="2001-01-01" max="2009-12-31" required>
+                 <br><br>
+
+                 <!-- Appointment -->
+                  <label for="">Appointment*</label>
+                  <input type="time" name="appointment" id="" required>
+                  <br><br>
+
+                  <!--buttons  -->
+                  <input type="submit" value="SEND">
+                  <input type="reset" value="CLEAR">
+                  
+
+
+
+
+
+
+    </form>
+</body>
+</html>

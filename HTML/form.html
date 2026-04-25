@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><mark>Job Application</mark></legend>
+    <form action="">
+        <!-- for and id should be same to make relation b/w label and input -->
+         <!-- diff b/w get and post get is less secure get is by default we can see in url -->
+          <!-- place holder==> to show instructions -->
+           <!-- required => mandotory field -->
+        <label for="username">Name</label>
+        <input type="text" name="Name" id="username" placeholder="Capitals Only" required>
+
+        <br>
+        <br>
+
+        <label for="mail">Email</label>
+        <input type="email" name="Email" id="mail">
+
+        <br>
+        <br>
+
+        <!-- mobile no -->
+         <!-- ol in tel type we can use min length and max length -->
+        <label for="mobile">Mobile No</label>
+        <input type="tel" name="mobile" id="mobile" minlength="10" maxlength="10">
+
+        <br>
+        <br>
+        
+        <!--  keep name as same so only one option user can select -->
+          <!-- we can use it only in radio ==> special feature -->
+        <label for="">Gender</label> <br>
+        <lable for="male">Male</lable>
+        <input type="radio" name="gen" id="male">
+        <lable for="female">Female</lable>
+        <input type="radio" name="gen" id="female">
+
+        <br>
+        <br>
+        
+        <!-- check ==> by default checked -->
+        <label for="">Skills</label> <br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skills" id="html" checked>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="css" checked>
+        <label for="js">JS</label>
+        <input type="checkbox" name="skills" id="js" checked>
+        <label for="react">React</label>
+        <input type="checkbox" name="skills" id="react">
+
+        <br>
+        <br>
+
+        <!-- Resume -->
+         <!-- want specific file type we can use accept attribute -->
+         <label for="resume">Resume</label>
+         <input type="file" name="resume" id="resume" accept=".pdf">
+
+         <br>
+         <br>
+
+         <!-- Joining date -->
+          <!-- to choose a date within a specific range use min and max attributes -->
+          <label for="doj">DOJ</label>
+          <input type="date" name="doj" id="doj" min="2026-05-01" max="2026-05-15">
+          <br>
+          <br>
+
+          <!-- branch drop down -->
+           <label for="branch">Branch</label>
+           <select name="" id="branch">
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">CIVIL</option>
+           </select>
+           <br>
+           <br>
+           
+           <label for="dept">Departments</label>
+           <select name="Dept" id="dept">
+            <optgroup label="Management">
+                <option value="">BBA</option>
+                <option value="">MBA</option>
+            </optgroup>
+            <optgroup label="Engineering">
+                <option value="">BTech</option>
+                <option value="">MTech</option>
+                <option value="">Diploma</option>
+            </optgroup>
+           </select>
+           <br>
+           <br>
+
+           <!-- details tag -->
+            <!-- open attribute to by default show all the options -->
+            <details open>
+            <summary>Upcoming Drives......</summary>
+            <p>TCS</p>
+            <p>Google</p>
+            <p>Microsoft</p>
+            </details> <br>
+
+            <!-- Experiance  slider bar -->
+             <!-- step means 1 step=100/20 means 5 -->
+             <label for="">Experiance</label>
+             <input type="range" name="experiance" id="" step="20">
+             <!-- Time Slot<input type="time" name="slot" id=""> <br> <br>
+             <input type="color" name="favcolor" id=""> <br> <br> -->
+
+             <label for="time">Time Slot</label>
+             <input type="time" name="time" id="time">
+             <br>
+
+             <label for="color">Color</label>
+             <input type="color" name="color" id="color">
+             <br>
+
+              <!-- Address -->
+              <!-- text area we can increase the size of the box -->
+              <label for="">Address</label>
+              <textarea name="" id=""></textarea>
+              <br>
+              <br>
+
+              <!-- Fees -->
+               <!-- read only ==> user cant change -->
+               <label for="">Fees:</label>
+               <input type="text" name="" id="" value="20000" readonly> <br><br>
+             
+               <!-- login and reset -->
+             <input type="submit" name="" id="" value="login">
+             <input type="reset" name="" id="">
+             <br><br>
+
+             
+
+            
+
+
+
+
+        <!-- button tag -->
+         <button>Submit</button>
+
+    </form>
+    </fieldset>
+    
+</body>
+</html>
