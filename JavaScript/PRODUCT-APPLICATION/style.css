@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(234, 197, 239);
+
+}
+h1{
+    background-color: rgb(173, 6, 126);
+    text-align: center;
+    color: white;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: rgb(211, 232, 237);
+    border: 4px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+.buy-btn {
+    background-color: #f02a86;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}

@@ -24,7 +24,7 @@
     /* flex-direction: row-reverse; */
 
     /* flex-wrap==> multiple containers to coming in next line according to height and width
-    by default flex-wrap:nowwrap we change to wrap */
+    by default flex-wrap:nowrap we change to wrap */
     flex-wrap: wrap;
 
     /* align-content==> multiples line of content ==> to change the allignment*/
